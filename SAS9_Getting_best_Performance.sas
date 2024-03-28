@@ -8,7 +8,7 @@
 * Step 1 *;
 **********;
 * Create and preview the large table *;
-%include "&path/data/create_large_table.sas";
+/*%include "&path/create_large_table.sas";*/
 
 * Turn on metrics for actions *;
 proc cas;

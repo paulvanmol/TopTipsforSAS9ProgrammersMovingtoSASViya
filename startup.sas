@@ -3,8 +3,8 @@
 **************************************;
 * Set the path to the main course CASL folder. Works for Viya for Learners and Lab *;
 %let homedir=%sysget(HOME);
-%let path=&homedir/refactorcode;
-%include "&path/data/setup.sas";
+%let path=/gelcontent/refactorcode;
+/*%include "&path/data/setup.sas";*/
 
 
 * Create a connection to the CAS server *;
